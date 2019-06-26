@@ -10,7 +10,7 @@ var filesToCache = [
 /*Inicia o SW e armazena todo o conteudo em cache*/
 self.addEventListener('install', function (e) {
     e.waitUntil(
-        caches.open(cacheName).then(function (cache){
+        caches.open(cacheName).then(function (cache) {
             return cache.addAll(filesToCache);
         })
     );
