@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif
+}
+
+
+/*faz o conteudo preencher toda a tela do browser*/
+
+html,
+.fullscreen{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*centraliza o conteudo na janela*/
+
+.container{
+    margin: auto;
+    text-align: center;
+}
+
+.title{
+    font-size: 3rem;
+}
