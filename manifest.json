@@ -1,6 +1,31 @@
 {
     "name": "Hello World",
     "short_name": "Hello",
+    "icons": [{
+        "src": "images/hello-icon-128.png",
+            "sizes": "128x128",
+            "tipe": "image/png"
+        }, {
+        "src": "images/hello-icon-144.png",
+            "sizes": "144x144",
+            "tipe": "image/png"
+        }, {
+        "src": "images/hello-icon-152.png",
+            "sizes": "152x152",
+            "tipe": "image/png"
+        }, {
+        "src": "images/hello-icon-192.png",
+            "sizes": "192x192",
+            "tipe": "image/png"
+        }, {
+        "src": "images/hello-icon-256.png",
+            "sizes": "256x256",
+            "tipe": "image/png"
+        }, {
+        "src": "images/hello-icon-512.png",
+            "sizes": "512x512",
+            "tipe": "image/png"
+        }],
     "lang": "pt-BR",
     "start_url": "/index.html",
     "display": "standalone",
