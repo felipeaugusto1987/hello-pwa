@@ -5,6 +5,6 @@ window.onload = () => {
         navigator.serviceWorker
             .register('/sw.js')
             .then(function() { console.log("Service Worker Registrado"); })    
-    };
+    }
 }
 
