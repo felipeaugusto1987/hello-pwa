@@ -12,23 +12,41 @@ html,
     margin: 0;
     padding: 0;
     width: 100%;
+    overflow: hidden;
 }
 
 /*centraliza o conteudo na janela*/
 
 .container{
+    display: block;
+    position: absolute;
     margin: auto;
     text-align: center;
+    height: 85%;
+}
+
+.welcome{
+    font-size: 2em;
+    color: #FFF;
+    position: absolute;
+    display: inline-block;
+}
+
+.menu-bar{
+    background-color: dimgrey;
+    font-size: 1em;
+    color: #FFF;
+    display: inline-block;
+    position: fixed;
+    margin: auto;
+    text-align: center;
+    height: 15%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1030;
 }
 
 .title{
     font-size: 3rem;
-}
-
-.novo-form{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    text-align: center;
 }
